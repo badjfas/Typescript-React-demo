@@ -7,7 +7,9 @@ const Container = styled.div``;
 
 const App = () => {
     const [count, setCount] = React.useState(0);
+
     const [value, setValue] = React.useState("");
+
     const add = (): void => {
         setCount(count + 1);
     };
